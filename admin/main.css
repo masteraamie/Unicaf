@@ -1,0 +1,139 @@
+@font-face {
+    font-family: 'ssp';
+    src:  url('../fonts/SourceSansPro-Regular.otf');
+}
+
+body{
+    font-family: "ssp",sans-serif !important;
+    letter-spacing: 1px;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar ul a{
+    color: #ffffff !important;
+    text-decoration: none !important;
+}
+
+.sidebar ul li{
+    padding: 10px 0 10px 0;
+    width: 100%;
+    text-indent: 20px;
+    margin: 10px 0 10px 0;
+}
+
+.sidebar ul li:hover,.sidebar li.active{
+    background-color: #dc3905;
+}
+
+.sidebar ul li span.fa{
+    padding-right: 5px;
+}
+
+/** Containers **/
+
+.sidebar{
+    position: fixed;
+    width: 20%;
+    height: 100%;
+    background-image: url("../img/body_bg.jpg");
+}
+
+.sidebar .sidebar-container{
+    position: fixed;
+    padding-top: 30px;
+    width: 20%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.content{
+    right: 0;
+    position: fixed;
+    width: 76%;
+    padding:0 0 30px 2%;
+    background-image: url("../img/body_bg.jpg");
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.content .header{
+    padding: 10px 0 10px 0;
+}
+
+.content thead{
+     color:#ffffff;
+    background-color: #3c3c3c;
+}
+
+.content td{
+    padding-left: 20px !important;
+}
+
+.panel .panel label{
+    color: #ffffff !important;
+}
+
+.box{
+    color: #ffffff;
+    transition: all 500ms;
+    -webkit-transition: all 500ms;
+    -moz-transition: all 500ms;
+    -o-transition: all 500ms;
+    padding: 20px 40px 20px 40px;
+}
+
+.box h6,.box h1{
+    color: #ffffff !important;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    margin: 10px;
+}
+
+.box:hover{
+    cursor: pointer;
+    transform: rotate(-5deg);
+    -webkit-transform: rotate(-5deg);
+    -o-transform: rotate(-5deg);
+    -moz-transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+    opacity: 0.8;
+}
+
+.orange{
+    background-color: #ff8020;
+}
+
+.blue{
+    background-color: #009fe8;
+}
+
+.green{
+    background-color: #00e659;
+}
+
+.red{
+    background-color: #ff4130;
+}
+
+.panel form label{
+    color: #ffffff;
+    font-weight: normal;
+}
+
+.panel form .col-lg-6 .col-lg-12{
+    padding: 10px 40px 10px 40px;
+}
+
+label.error{
+    color: #ff5800 !important;
+}
+
+.table tbody td label{
+    font-size: 12px;
+    font-weight:normal;
+}

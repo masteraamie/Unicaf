@@ -1,0 +1,67 @@
+@media only print {
+    body{
+        font-size: 11px !important;
+        padding: 0 1px 0 1px !important;
+    }
+    @page
+    {
+        size: auto;   /* auto is the current printer page size */
+        margin: 0mm;  /* this affects the margin in the printer settings */
+    }
+    .delbtn{
+        display: none;
+    }
+    input[type=number]{
+        border: 0 !important;
+        padding: 0 !important;
+        margin: 0 !important;
+        height: 20px;
+    }
+    .show_print{
+        display: block !important;
+    }
+    .dontprint{
+        display: none;
+    }
+    .content .container-fluid,.content .panel,.content .panel-body{
+        width: 100% !important;
+        padding: 0 !important;
+        overflow-x: visible !important;
+        overflow-y: visible !important;
+    }
+    .content{
+        width: 100% !important;
+        overflow: visible !important;
+        padding: 10px 0 10px 0 !important;
+    }
+    table tr td:last-child{
+        display: none;
+    }
+
+    td, td *{
+        padding: 3px 5px 3px 5px !important;
+        font-size: 12px !important;
+    }
+
+
+    tbody{
+        font-family: sans-serif;
+        font-weight: normal !important;
+    }
+
+    table{
+        font-family: sans-serif !important;
+    }
+    .container-fluid{
+        padding-top: 10px !important;
+    }
+    tbody .form-control{
+        display: inline !important;
+        height: 13px !important;
+    }
+
+    #gdtxt{
+        font-size: 10px;
+        padding-top: 3px
+    }
+}

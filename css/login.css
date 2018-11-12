@@ -1,0 +1,65 @@
+@font-face {
+    font-family: ssp;
+    src: url('../fonts/SourceSansPro-Regular.otf');
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("../img/body_bg.jpg");
+    font-family: "ssp", sans-serif !important;
+}
+
+.main_panel{
+    position: absolute;
+    width: 300px;
+    padding: 20px;
+    top:15%;
+    left: 50%;
+    margin-left: -170px;
+    box-shadow: 0px 0px 55px 5px rgba(0, 0, 0, 0.5);
+}
+
+.row{
+    padding: 20px;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+.center{
+    text-align: center;
+}
+
+#logo{
+    margin-top: 10px;
+}
+
+label{
+    font-size: 12px;
+    color: #a9a9a9;
+}
+
+input{
+    width: 96%;
+    padding: 2%;
+    height: 25px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 0px;
+    background-color: #e5e5e5;
+    outline-color: #0054a6;
+}
+
+input[type='submit']{
+    float: right;
+    width: 100px;
+    background-color: #0054a6;
+    color: #ffffff;
+    height: 35px;
+    letter-spacing: 2px;
+}
+
+input[type='submit']:hover{
+    background-color: #003265;
+    cursor: pointer;
+}
